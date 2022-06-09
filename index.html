@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+    
+</head>
+<body>
+    <header id = "navBar">
+            <div><img src="logo.svg" class="logo" alt="DeepThought Logo"></div>
+            <div>
+                <img src="home.png" class="icons" alt = "home icon">
+                <img src="settings.png" class="icons" alt = "settings icon">
+                <img src="notifications.png" class="icons" alt = "bell icon">
+                <img src="Ellipse 53.png" class="icons" alt = "profile icon">
+                <p class="options">...</p>
+            </div>
+        </header>
+        <section class = "mainBody">
+            <section class = "project-sec">
+                <div class = "project-head"> <p class="heading-project">You Are Taking Challenges Of New Project</p> </div>
+                <p>demo task</p>
+                <div class="whole-imgSec">
+                    
+                    <div class = "firstSec-img">
+                        <img src="image 1.png">
+                        <img src="image 2.png">
+                    </div>
+                    <div class="secondSec-img">
+                        <img src="image 3.png">
+                        <img src="image 4.png">
+                    </div>
+                    <div class="thirdSec-img">
+                        <img src="image 8.png">
+                        <img src="image 6.png">
+                    </div>
+                    <div class="fourthSec-img">
+                        <img src="image 7.png">
+                    </div>
+                </div>
+            
+            </section>
+            <section class = "journeyBoard">
+                <img src="image 12.png">
+            </section>
+        </section>
+        <footer>
+            <button>Next</button>
+        </footer>
+        
+        
+    <style> 
+        
+        @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+        
+        body{
+            margin-bottom: 3250px;
+        }
+        
+        #navBar{
+            position:absolute ;width: 100%;height: 50px;left: 0px;
+top: 0px;background: #F0F0F0;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            
+        }
+
+        .mainBody{
+            display: flex;
+            justify-content: center;
+        }
+        
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+        .icons {
+            position: absolute;
+            right: 23%;
+            top: 12px;
+            width: 28px;
+
+        }
+        .icons:nth-child(2){
+            right: 18%;
+        }
+
+        .icons:nth-child(3){
+            right: 13%;
+        }
+
+        .icons:nth-child(4){
+            right: 8%;
+        }
+
+        
+        
+        .options{
+            position: absolute;
+            writing-mode: vertical-rl;
+            cursor: default;
+            
+            font-size: 35px;
+            color: #00ccff;
+            top: 12px;
+            right: -2%;
+        }
+
+        .project-head{
+            width: 1136px;
+            height: 51px;
+            top: 222px;
+            background: #0029FF;
+            padding-inline: 15px;
+
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .project-sec{
+            box-sizing: border-box;
+            width: 90%;
+            height: 2900px;
+            top: 145px;
+            position: absolute;
+            background: #FFFFFF;
+            border: 1px solid #F0F0F0;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px 10px 0px 0px;
+        }
+        .project-sec p:nth-child(2) {
+            display: flex;
+            justify-content: center;
+            font-family: 'Joan', serif;
+            margin-top: 40px;
+
+        }
+
+        .heading-project{
+            font: 15px;
+            color: white;
+            padding-inline: 13px;
+            padding-top: 12px;
+            font-size: 18px;
+            
+        }
+        
+        
+        .whole-imgSec{
+            display: grid;
+            justify-content: center;
+            margin-top: 60px;
+        }
+        .firstSec-img img:nth-child(1){
+            padding-bottom: 308px;
+            padding-right: 85px;
+        }
+
+        .secondSec-img{
+            margin-top: 75px;
+        }
+
+        .thirdSec-img{
+            margin-top: 75px;
+        }
+
+        .secondSec-img img:nth-child(1){
+            padding-bottom: 320px;
+            padding-right: 85px;
+        }
+
+        .thirdSec-img img:nth-child(2){
+            padding-bottom: 632px;
+            padding-left: 85px;
+        }
+
+        .fourthSec-img{
+            display: flex;
+            justify-content: center;
+            margin-top: 75px;
+        }
+
+        
+
+        .journeyBoard img{
+            position: absolute;
+            top: 26%;
+            right: 97%;
+            transition: 1s ease-out;
+        }
+
+        .journeyBoard img:hover{
+            transform: translateX(80%);
+            
+            
+        }
+        
+        footer{
+            position: absolute;
+            right: 6%;
+            top: 530%;
+            
+        }
+
+        footer button{
+        
+            background: #0029FF;
+            border-radius: 5px;
+            width: 90px;
+            height: 70px;
+            border: none;
+            color: white;
+
+        }
+
+
+
+
+    
+        
+
+        
+    </style>
+</body>
+</html>
